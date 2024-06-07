@@ -47,12 +47,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item px-2">
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="web-development.html"
-                >
-                  Web Development
+                <a className="nav-link" aria-current="page" href="/courses">
+                  Courses
                 </a>
               </li>
               <li className="nav-item px-2">
@@ -65,7 +61,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <a className="btn btn-primary order-1 order-lg-0" href="#!">
+            <a className="btn btn-primary order-1 order-lg-0" href="/auth">
               Sign Up
             </a>
             <form className="d-flex my-3 d-block d-lg-none">
